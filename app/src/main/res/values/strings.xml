@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assesment Sapient</string>
+    <string name="network_error">Cannot connect to Internet. Please check your connection!</string>
+    <string name="ImageUrl">IMAGERY</string>
+    <string name="Cell_Position">POSITION</string>
+    <string name="Server_Not_Found">Server Not Found</string>
+    <string name="Server_Broken">Server Broken</string>
+    <string name="Unknown_Error">Unknown Error</string>
+    <string name="exit_confirm_message">Are you sure you want to close?</string>
+    <string name="exit">Exit!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="go_to_settings">Go To Settings</string>
+    <string name="close_app">Close App</string>
+    <string name="no_internet">No internet connection.!</string>
+    <string name="reset">reset</string>
+</resources>

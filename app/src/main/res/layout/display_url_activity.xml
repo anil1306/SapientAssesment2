@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainFeedActivity">
+
+    <ImageView
+        android:id="@+id/image_By_URL"
+        android:layout_width="@dimen/url_image_width"
+        android:layout_height="@dimen/url_image_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/url_image_dimen"
+        android:layout_marginRight="@dimen/url_image_dimen"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
