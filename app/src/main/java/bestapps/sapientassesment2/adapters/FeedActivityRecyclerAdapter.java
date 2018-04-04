@@ -36,7 +36,7 @@ public class FeedActivityRecyclerAdapter extends RecyclerView.Adapter {
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public FeedActivityRecyclerAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         FeedActivityRecyclerAdapter.ViewHolder viewHolder;
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_card_view, parent, false);
         viewHolder = new ViewHolder(view);
